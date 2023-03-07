@@ -17,6 +17,7 @@ const Navbar = () => {
 
       <div className="flex justify-between">
         <Link className="btn btn-ghost normal-case text-xl" to={"/home"}>Home</Link>
+        <Link className="btn btn-ghost normal-case text-xl" to={"/orders"}>Orders</Link>
         <Link className="btn btn-ghost normal-case text-xl" to={"/login"}>Log In</Link>
         <Link className="btn btn-ghost normal-case text-xl" to={"/register"}>Register</Link>
         {user?.email && <span> Welcome Mr.{user?.email}</span>}
